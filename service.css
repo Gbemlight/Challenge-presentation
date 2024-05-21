@@ -1,0 +1,358 @@
+@font-face{
+    font-family: 'circular std';
+    src: url(circular-std-medium-500.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box 0;
+    /* overflow-x: hidden; */
+}
+.container{
+    width: 100%;
+}
+header{
+    display: flex;
+    gap: 250px;
+    padding-top: 20px;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+}
+.logo{
+    margin-left: 100px;
+}
+ul{
+    display: flex;
+    gap: 40px;
+    font-family: circular std;
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 22.77px;
+    text-align: right;
+    color:#60E1CB;
+}
+li span{
+    color: black;
+}
+a li{
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+    color: #60E1CB;
+}
+.headbtn{
+    width: 188.49px;
+height: 40px;
+border: none;
+border-radius: 30px;
+background-color: #7BC0E3;
+margin-bottom: 35px;
+}
+.headbtn a{
+    color: white;
+    font-family: Circular Std;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+}
+.group{
+    background-color:#60E1CB;
+}
+.group img{
+    width: 500px;
+}
+.group h1{
+    font-family: Circular Std;
+font-size: 58px;
+font-weight: 900;
+line-height: 65.25px;
+letter-spacing: -0.015em;
+text-align: center;
+margin-top: -50px;
+margin-bottom: 19px;
+}
+.group h6{
+    font-family: DM Sans;
+font-size: 20px;
+font-weight: 500;
+line-height: 31.44px;
+text-align: center;
+opacity: 50%;
+padding-bottom: 160px;
+}
+.services{
+    margin-top: -70px;
+    margin-left: 55px;
+    background-color: #E9FBF8;
+    /* width: 1349px; */
+    /* padding-top: 118px; */
+    /* padding-bottom: 100px; */
+    border-radius: 50px;
+    position: relative;
+    z-index: 1;
+    width: 80%;
+    padding: 80px;
+    margin-bottom: 84px;
+}
+.head{
+    text-align: center;
+}
+.head h2{
+    font-family: Circular Std;
+font-size: 48px;
+font-weight: 700;
+line-height: 60.72px;
+margin-bottom: 25px;
+}
+.head h6{
+    font-family: DM Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 20.44px;
+margin-bottom: 40px;
+}
+.upbox{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+.box1{
+    background-color: #FDFDFF;
+    padding: 30px;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    border-top-color: #60E1CB;
+    border-style: solid;
+    border-bottom-color: #FFFFFF;
+    border-left-color: #FFFFFF;
+    border-right-color: #FFFFFF;
+}
+.box1 img{
+    width: 40px;
+    height: 35px;
+    padding-bottom: 32px;
+}
+.box1 h4{
+    font-family: Circular Std;
+font-size: 19px;
+font-weight: 700;
+line-height: 25.3px;
+padding-bottom: 30px;
+}
+.box1 p{
+    font-family: DM Sans;
+font-size: 14px;
+font-weight: 500;
+line-height: 20.83px;
+padding-bottom: 40px;
+}
+.box1 h6{
+    font-family: DM Sans;
+font-size: 14px;
+font-weight: 700;
+line-height: 18.23px;
+color: #7BC0E3;
+}
+.RM h6 img{
+    width: 24px;
+    height:7px;
+}
+.downbox{
+     display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    gap: 50px;
+}
+
+.banner{
+    background-color: #60E1CB;
+    top: -400px;
+    width: 1349px;
+}
+.banner img{
+    width:500px;
+    height: 250px;
+}
+.contents h2{
+    font-family: Circular Std;
+font-size: 48px;
+font-weight: 700;
+line-height: 60.72px;
+text-align: center;
+padding-bottom: 25px;
+}
+.contents p{
+    font-family: DM Sans;
+font-size: 24px;
+font-weight: 400;
+line-height: 24.53px;
+text-align: center;
+padding-bottom: 80px;
+}
+.contents button{
+    padding: 20px;
+    border-radius: 40px;
+    background-color: black;
+    border: none;
+    margin-left: 500px;
+}
+.contents button a{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+font-size: 22px;
+font-weight: 600;
+line-height: 33px;
+}
+button:hover , button.active{
+    background-color: blue;
+}
+.vector2 img{
+    margin-left: 800px;
+    width: 549px;
+}
+
+.onlineprescence{
+    display: flex;
+    gap: 76px;
+    margin-left: 10%;
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+.lefttexts h2{
+    font-family: Circular Std;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;    
+    margin-bottom: 29px;
+}
+.lefttexts p{
+    font-family: DM Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.group56 img{
+    width: 200px;
+    height: 200px;
+    margin-left: -250px;
+    position: absolute;
+}
+.right h3{
+    text-decoration: none;
+    font-family: Circular Std;
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 40px;
+    margin-bottom: 22px;
+    color: #60E1CB;
+}
+.right img{
+    width: 600px;
+    position: relative;
+    z-index: 1;
+}
+.Footer{
+    background-color:#60E1CB;
+    width: 1349px;
+}
+.footerall{
+    display: flex;
+    gap: 80px;
+    padding: 80px;
+}
+.leftfooter h1{
+    font-family: Circular Std;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 40.48px;
+    letter-spacing: 0.01em; 
+}
+.leftfooter a{
+    text-decoration: none;
+    color: black;
+}
+.leftfooter p{
+    font-family: Circular Std;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #292525;    
+}
+.work h5{
+    font-family: Circular Std;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 24.03px;
+    margin-bottom: 25px;
+}.work p{
+   font-family: Circular Std;
+font-size: 16px;
+font-weight: 500;
+line-height: 30px;
+    margin-bottom: 6px;   
+    opacity: 40%; 
+}
+.service h5{
+font-family: Circular Std;
+font-size: 19px;
+font-weight: 700;
+line-height: 24.03px;
+margin-bottom: 25px;
+}
+.service p{
+font-family: Circular Std;
+font-size: 16px;
+font-weight: 500;
+line-height: 30px;
+opacity: 40%;
+margin-bottom: 6px;
+}
+.businesssolution h5{
+    font-family: Circular Std;
+font-size: 19px;
+font-weight: 700;
+line-height: 24.03px;
+margin-bottom: 20px;
+}
+.businesssolution p{
+    font-family: Circular Std;
+font-size: 16px;
+font-weight: 500;
+line-height: 30px;
+margin-bottom: 6px;
+opacity: 40%;
+}
+select h5{
+    border: none;
+}
+.Footer img{
+    width: 1140px;
+    margin-left: 120px;
+    margin-bottom: 48px;
+}
+.lastpart{
+    display: flex;
+    margin-left: 115px;
+    padding-bottom: 100px;
+}
+.lastpart h5{
+    font-family: Circular Std;
+font-size: 16px;
+font-weight: 450;
+line-height: 20.24px;
+text-align: left;
+padding-right: 850px;
+}
+.lastpart a{
+    text-decoration: none;
+    font-family: Circular Std;
+font-size: 19px;
+font-weight: 700;
+line-height: 24.03px;
+color: black;
+padding-left: 29px;
+}
