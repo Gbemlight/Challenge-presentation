@@ -9,11 +9,11 @@
     /* overflow-x: hidden; */
 }
 .container{
-    width: 95%;
+    width: 100%;
 }
 header{
     display: flex;
-    justify-content: space-between;
+    gap: 250px;
     padding-top: 43.58px;
 }
 .headlogo{
@@ -99,6 +99,11 @@ box-shadow: 0px 20px 20px 0px #60E1CB8F;
     border: 1px solid #07003B2B
 }
 .btn2 a{
+    font-family: Circular Std;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+color: #60E1CB;
     text-decoration: none;
 }
 .leftright{
@@ -159,8 +164,6 @@ margin-bottom: 40px;
     border-radius: 5px;
     width: 300px;
     height: 300px;
-    /* align-items: center;
-    display: block; */
     border-top-color: #60E1CB;
     border-style: solid;
     border-bottom-color: #FFFFFF;
@@ -519,6 +522,15 @@ color: #60E1CB;
 .blogs{
     background-color: #E9FBF8;
     width: 1349px;
+    height: 700px;
+    padding-top: 180px;
+}
+.groupflex{
+    display: flex;
+    gap: 184px;
+}
+.left{
+    margin-left: 100px;
 }
 .left p{
     font-family: Circular Std;
@@ -528,20 +540,21 @@ line-height: 30.36px;
 letter-spacing: 0.006em;
 text-align: left;
 color: #60E1CB;
+margin-bottom: 22px;
 }
 .left h2{
     font-family: Circular Std;
-    font-size: 48px;
+    font-size: 35px;
     font-weight: 700;
-    line-height: 60.72px;
-    text-align: left;     
+    text-align: left;   
+    margin-bottom: 22px;  
 }
-.left h6{
+.left h5{
     font-family: DM Sans;
-font-size: 22px;
+font-size: 18px;
 font-weight: 500;
-line-height: 38.98px;
 text-align: left;
+margin-bottom: 45px;
 }
 .left button{
     border-radius: 45px;
@@ -559,23 +572,339 @@ line-height: 25.3px;
 text-align: center;
 color: #7BC0E3;
 }
+
+.blogflex{
+    display: flex;
+    gap: 30px;
+}
+.blog1{
+    background-color:white;
+    border-radius: 16px;
+    padding: 5px;
+    width: 250px;
+    height: 300px;
+    z-index: 1;
+}
 .blog1 h4{
 font-family: Circular Std;
 font-size: 20px;
 font-weight: 700;
-line-height: 30.7px;
-text-align: left;
+line-height: 24px;
+margin-bottom: 14px;
+margin-top: 70px;
+margin-left: 20px;
 }
 .blog1 p{
     font-family: DM Sans;
-font-size: 16px;
+font-size: 12px;
 font-weight: 500;
-line-height: 25.95px;
-text-align: justified;
+margin-bottom: 35px;
 opacity: 50%;
 color: black;
+margin-left: 20px;
 }
 .blog1 a{
     text-decoration: none;
     color: #7BC0E3;
+    margin-left: 20px;
+}
+.blogs img{
+    width: 300px;
+    height: 255px;
+    position: relative;
+    /* margin-top: -100px; */
+    margin-left: 1049px;
+}
+.play img{
+    width: 300px;
+    height: 255px;
+}
+
+.Footer{
+    background-color:#60E1CB;
+    width: 1349px;
+}
+.footerall{
+    display: flex;
+    gap: 80px;
+    padding: 80px;
+}
+.leftfooter h1{
+    font-family: Circular Std;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 40.48px;
+    letter-spacing: 0.01em; 
+}
+.leftfooter a{
+    text-decoration: none;
+    color: black;
+}
+.leftfooter p{
+    font-family: Circular Std;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #292525;    
+}
+.work h5{
+    font-family: Circular Std;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 24.03px;
+    margin-bottom: 25px;
+}.work p{
+   font-family: Circular Std;
+font-size: 16px;
+font-weight: 500;
+line-height: 30px;
+    margin-bottom: 6px;   
+    opacity: 40%; 
+}
+.service h5{
+font-family: Circular Std;
+font-size: 19px;
+font-weight: 700;
+line-height: 24.03px;
+margin-bottom: 25px;
+}
+.service p{
+font-family: Circular Std;
+font-size: 16px;
+font-weight: 500;
+line-height: 30px;
+opacity: 40%;
+margin-bottom: 6px;
+}
+.businesssolution h5{
+    font-family: Circular Std;
+font-size: 19px;
+font-weight: 700;
+line-height: 24.03px;
+margin-bottom: 20px;
+}
+.businesssolution p{
+    font-family: Circular Std;
+font-size: 16px;
+font-weight: 500;
+line-height: 30px;
+margin-bottom: 6px;
+opacity: 40%;
+}
+select h5{
+    border: none;
+}
+.Footer img{
+    width: 1140px;
+    margin-left: 120px;
+    margin-bottom: 48px;
+}
+.lastpart{
+    display: flex;
+    margin-left: 115px;
+    padding-bottom: 100px;
+}
+.lastpart h5{
+    font-family: Circular Std;
+font-size: 16px;
+font-weight: 450;
+line-height: 20.24px;
+text-align: left;
+padding-right: 850px;
+}
+.lastpart a{
+    text-decoration: none;
+    font-family: Circular Std;
+font-size: 19px;
+font-weight: 700;
+line-height: 24.03px;
+color: black;
+padding-left: 29px;
+}
+
+/* RESPONSIVENESS */
+@media (max-width:1024px) {
+    .headlogo{
+        margin-left: 50px;
+    }
+    .headbtn{
+        display: none;
+    }
+    .analyseimg{
+        width: 60%;
+    }
+    .spiral img{
+        top: -50px;
+        right: 70px;
+    }
+
+    /* service section */
+    .services{
+        width: 100%;
+    }
+    .head{
+        text-align: center;
+    }
+    .box1{
+        width: 250px;
+        height: 300px;
+    }
+    .box1 p{
+        font-size: 14px;
+    }
+    /* .upbox{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: none;
+    } */
+
+    /* portfoliosection */
+    .picture{
+        width: 100%;
+    }
+    .groupimg{
+        top: 2855px;
+    }
+    .groupimg img{
+        width: 250px;
+    }
+    .groupimg p{
+        font-size: 14px;
+    }
+    .lessthan img{
+        width: 1015px;
+        margin-left: 15px;
+        top: 2910px;
+    }
+    .blackbtn button{
+        margin-left: 450px;
+        top: 3275px;
+        width: 170px;
+    }
+
+    /* .ideassection */
+    .ideas{
+        width: 100%;
+    }
+    .head h3{
+    margin-left: 100px;
+    font-size: 45px;
+    }
+    .head p{
+    font-size: 15px;
+    margin-left: 100px;
+    }
+    .numbertext{
+    margin-left: 100px;
+    }
+    .numbers a{
+    font-size: 25px;
+    }
+    .texts h5{
+    font-size: 20px;
+    }
+    .texts p{
+    font-size: 12px;
+    }
+    .wr img{
+    width: 400px;
+    height: 400px;
+    margin-left: 394px;
+    }
+
+    /* bannersection */
+    .banner{
+    width: 100%;
+    }
+    .contents button{
+    margin-left: 320px;
+    }
+    .vector2 img{
+    margin-left: 475px ;
+    }
+
+    /* clientssection */
+    .clients{
+        margin-top: -250px;
+        width: 100%;
+    }
+    .background img{
+        margin-left: 420px;
+    }
+    .person{
+        margin-left: 200px;
+    }
+
+    /* blogsection */
+    .blogs{
+        width: 100%;
+    }
+    .blogs img{
+        margin-left: 730px;
+    }
+    .groupflex{
+        gap: 70px;
+    }
+    .left{
+        margin-left: 100px;
+    }
+    .left p{
+        font-size: 20px;
+    }
+    .left h2{
+        font-size: 40px;
+    }
+    .left h5{
+        font-size: 20px;
+    }
+    .blogflex{
+        margin-right: 50px ;
+    }
+    .blog1{
+        width: 150px;
+        height: 190px;
+    }
+    .blog1 h4{
+        font-size: 10px;
+        line-height: 15px;
+        margin-top: 20px;
+    }
+    .blog1 p{
+        font-size: 7px;
+        opacity: inherit;
+    }
+    .blogs img{
+        bottom: 200px;
+    }
+
+    /* footersection */
+    .Footer{
+        width: 100%;
+    }
+    .footerall{
+        gap: 20px;
+    }
+    .leftfooter h1{
+        font-size: 28px;
+        margin-left: -30px;
+    }
+    .leftfooter p{
+        font-size: 12px;
+        margin-left: -30px;
+        padding-right: 30px;
+    }
+    .Footer img{
+        width: 900px;
+        margin-left: 60px;
+    }
+    .lastpart{
+        margin-left: 70px;
+    }
+    .lastpart h5{
+        padding-right: 600px;
+    }
+}
+
+@media  (max-width:768px){
+    
 }
