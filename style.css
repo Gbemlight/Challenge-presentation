@@ -16,6 +16,9 @@ header{
     gap: 250px;
     padding-top: 43.58px;
 }
+.hamburger{
+    display: none;
+}
 .headlogo{
     margin-left: 100px;
 }
@@ -72,7 +75,7 @@ h1 span{
     font-family: DM Sans;
 font-size: 20px;
 font-weight: 400;
-line-height: 31.44px;
+line-height: 25px;
 color: black;
 margin-bottom: 52px;
 }
@@ -115,7 +118,9 @@ color: #60E1CB;
     width:100%;
 } 
 .analyseimg{
+    /* width: 50%; */
     width: 50%;
+    height: 50%;
     margin-bottom: 43.12px;
 }
 .spiral img{
@@ -155,14 +160,20 @@ font-weight: 400;
 line-height: 20.44px;
 margin-bottom: 40px;
 }
-.upbox{
+/* .upbox{
     display: flex;
     justify-content: space-evenly;
+} */
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 70px;
 }
 .box1{
     background-color: #FDFDFF;
     padding: 30px;
     border-radius: 5px;
+    margin-bottom: 50px;
     width: 300px;
     height: 300px;
     border-top-color: #60E1CB;
@@ -905,6 +916,105 @@ padding-left: 29px;
     }
 }
 
-@media  (max-width:768px){
-    
+@media  (max-width: 575.98px){
+    nav{
+        display: none;
+    }
+    .hamburger{
+        display: flex;
+    }
+    .leftside img{
+        width: 80px;
+        margin-bottom: 7px;
+    }
+    .leftside h1{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .leftside p{
+        font-size: 10px;
+        font-weight: 700px;
+    }
+    .leftright{
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+    .btn2{
+        margin-top: 20px;
+        margin-bottom: 70px;
+    }
+    .spiral img{
+        display: none;
+    }
+
+    /* servicesection */
+    .head h2{
+        font-size: 38px;
+        margin-bottom: 15px;
+    }
+    .head h6{
+        font-size: 13px;
+        font-weight: 300px;
+    }
+    .boxes{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .box1{
+        padding: 8px;
+        width: 200px;
+        height: 200px;
+    }
+    .box1 img{
+        width: 30px;
+        height: 25px;
+        padding-bottom: 12px;
+    }
+    .box1 h4{
+        font-size: 8px;
+        padding-bottom: 7px;
+    }
+    .box1 p{
+        font-size: 10px;
+        padding-bottom: 20px;
+    }
+
+    /* portfoliosection */
+    .port h4{
+        font-size: 40px;
+        padding-bottom: 40px;
+    }
+    .tabs{
+        font-size: 13px;
+    }
+    .letter{
+        padding: 15px;
+    }
+    .picture{
+        margin-top: 100px;
+        height: 170px;
+    }
+    .lessthan img{
+        top: 2255px;
+        width: 560px;
+        margin-left: 7px;
+    }
+    .groupimg{
+        gap: 40px;
+        top: 2230px;
+        margin-left: 30px;
+    }
+    .groupimg img{
+        width: 140px;
+    }
+    .groupimg p{
+        font-size: 8px;
+        font-weight:200px;
+        line-height: 20px;
+    }
+    .blackbtn button{
+        top: 2480px;
+        margin-left: 220px;
+        height: 60px;
+    }
 }
