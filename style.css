@@ -122,7 +122,8 @@ color: #60E1CB;
     width: 500px;
     height: 500px;
     position: relative;
-    bottom: 145px;
+    bottom:200px;
+    right: 100px;
 }
 
 .services{
