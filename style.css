@@ -275,14 +275,14 @@ padding-bottom: 60px;
     background: rgba(96, 225, 203, 1);
     margin-top: 150px;
     width: 1349px;
-    height: 300px;
+    height: 400px;
     position: relative;
     padding-bottom: 80px;
 }
 .lessthan img{
     width: 1300px;
     position: absolute;
-    top: 2959px;
+    top: 3055px;
     z-index: 2;
     margin-left: 10px;
 }
@@ -291,7 +291,7 @@ padding-bottom: 60px;
     gap: 80px;
     margin-left: 61px;
     position: absolute;
-    top:  2900px;
+    top:  3000px;
 }
 .groupimg img{
     width: 350px;
@@ -310,7 +310,7 @@ line-height: 30.64px;
     background-color: black;
     border: none;
     position: absolute;
-    top: 3339px;
+    top: 3540px;
     margin-left: 600px;
     box-shadow: 0px 20px 20px 0px #60E1CB8F;
 }
@@ -534,11 +534,11 @@ color: #60E1CB;
     background-color: #E9FBF8;
     width: 1349px;
     height: 700px;
-    padding-top: 180px;
 }
 .groupflex{
     display: flex;
     gap: 184px;
+    padding-top: 150px;
 }
 .left{
     margin-left: 100px;
@@ -623,7 +623,7 @@ margin-left: 20px;
     width: 300px;
     height: 255px;
     position: relative;
-    /* margin-top: -100px; */
+    margin-top: -130px;
     margin-left: 1049px;
 }
 .play img{
@@ -733,288 +733,182 @@ color: black;
 padding-left: 29px;
 }
 
-/* RESPONSIVENESS */
-@media (max-width:1024px) {
+    /* responsiveness */
+@media (min-width:1024px) and (max-width: 1250px) {
+    header{
+        gap: 100px;
+    }
     .headlogo{
-        margin-left: 50px;
+        margin-left: 70px;
+    }
+    ul{
+        gap: 25px;
     }
     .headbtn{
-        display: none;
+        width: 160px;
     }
-    .analyseimg{
-        width: 60%;
+    .leftright{
+        margin-left: 70px;
     }
     .spiral img{
-        top: -50px;
-        right: 70px;
+        bottom: 70px;
+        right: 120px;
     }
 
-    /* service section */
+    /* servicesection */
     .services{
         width: 100%;
     }
-    .head{
-        text-align: center;
+    .boxes{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-left: 60px;
     }
     .box1{
-        width: 250px;
-        height: 300px;
+        width: 200px;
+    }
+    .box1 h4{
+        font-size: 15px;
     }
     .box1 p{
-        font-size: 14px;
+        font-size: 11px;
     }
-    /* .upbox{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        gap: none;
-    } */
 
     /* portfoliosection */
     .picture{
         width: 100%;
     }
+    .lessthan img{
+        width: 975px;
+        top: 2980px;
+    }
     .groupimg{
-        top: 2855px;
+        gap: 50px;
+        margin-left: 50px;
+        top: 2920px;
     }
     .groupimg img{
         width: 250px;
     }
     .groupimg p{
-        font-size: 14px;
-    }
-    .lessthan img{
-        width: 1015px;
-        margin-left: 15px;
-        top: 2910px;
+        font-size: 15px;
     }
     .blackbtn button{
-        margin-left: 450px;
-        top: 3275px;
-        width: 170px;
+        top: 3440px;
+        margin-left: 400px;
     }
 
-    /* .ideassection */
+    /* ideasection */
     .ideas{
         width: 100%;
     }
-    .head h3{
-    margin-left: 100px;
-    font-size: 45px;
+    .head h3 {
+        margin-left: 80px;
     }
     .head p{
-    font-size: 15px;
-    margin-left: 100px;
+        font-size: 15px;
+        margin-left:80px;
     }
     .numbertext{
-    margin-left: 100px;
-    }
-    .numbers a{
-    font-size: 25px;
-    }
-    .texts h5{
-    font-size: 20px;
+        margin-left: 80px;
+        padding-bottom: 80px;
     }
     .texts p{
-    font-size: 12px;
+        font-size: 13px;
     }
     .wr img{
-    width: 400px;
-    height: 400px;
-    margin-left: 394px;
+        width: 377px;
+        height: 400px;
+        bottom: 220px;
     }
 
     /* bannersection */
     .banner{
-    width: 100%;
+        width:100%;
+    }
+    .banner img{
+        width: 400px;
+        height:200px;
     }
     .contents button{
-    margin-left: 320px;
+        margin-left: 295px;
     }
     .vector2 img{
-    margin-left: 475px ;
+        margin-left:608px;
     }
 
-    /* clientssection */
+    /* clientsection */
     .clients{
-        margin-top: -250px;
         width: 100%;
     }
     .background img{
-        margin-left: 420px;
+        margin-left: 400px;
     }
-    .person{
+    .person {
         margin-left: 200px;
     }
 
     /* blogsection */
+
     .blogs{
         width: 100%;
-    }
-    .blogs img{
-        margin-left: 730px;
+        /* padding: 30px; */
     }
     .groupflex{
-        gap: 70px;
+        gap: 80px;
     }
     .left{
-        margin-left: 100px;
-    }
-    .left p{
-        font-size: 20px;
-    }
-    .left h2{
-        font-size: 40px;
-    }
-    .left h5{
-        font-size: 20px;
-    }
-    .blogflex{
-        margin-right: 50px ;
-    }
-    .blog1{
-        width: 150px;
-        height: 190px;
-    }
-    .blog1 h4{
-        font-size: 10px;
-        line-height: 15px;
-        margin-top: 20px;
-    }
-    .blog1 p{
-        font-size: 7px;
-        opacity: inherit;
-    }
-    .blogs img{
-        bottom: 200px;
-    }
-
-    /* footersection */
-    .Footer{
-        width: 100%;
-    }
-    .footerall{
-        gap: 20px;
-    }
-    .leftfooter h1{
-        font-size: 28px;
-        margin-left: -30px;
-    }
-    .leftfooter p{
-        font-size: 12px;
-        margin-left: -30px;
-        padding-right: 30px;
-    }
-    .Footer img{
-        width: 900px;
         margin-left: 60px;
     }
-    .lastpart{
-        margin-left: 70px;
+    .left h2{
+        font-size: 28px;
     }
-    .lastpart h5{
-        padding-right: 600px;
+    .left h5{
+        font-size: 11px;
     }
-}
-
-@media  (max-width: 575.98px){
-    nav{
-        display: none;
+    .blogflex{
+        gap: 20px;
     }
-    .hamburger{
-        display: flex;
-    }
-    .leftside img{
-        width: 80px;
-        margin-bottom: 7px;
-    }
-    .leftside h1{
-        font-size: 30px;
-        margin-bottom: 10px;
-    }
-    .leftside p{
-        font-size: 10px;
-        font-weight: 700px;
-    }
-    .leftright{
-        margin-left: 50px;
-        margin-top: 100px;
-    }
-    .btn2{
-        margin-top: 20px;
-        margin-bottom: 70px;
-    }
-    .spiral img{
-        display: none;
-    }
-
-    /* servicesection */
-    .head h2{
-        font-size: 38px;
-        margin-bottom: 15px;
-    }
-    .head h6{
-        font-size: 13px;
-        font-weight: 300px;
-    }
-    .boxes{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-    }
-    .box1{
-        padding: 8px;
+    .blog1{
+        height: 260px;
         width: 200px;
-        height: 200px;
     }
-    .box1 img{
-        width: 30px;
-        height: 25px;
-        padding-bottom: 12px;
+    .blog1 h4{
+        margin-top: 30px;
+        font-size: 14px;
     }
-    .box1 h4{
-        font-size: 8px;
-        padding-bottom: 7px;
-    }
-    .box1 p{
+    .blog1 p{
         font-size: 10px;
-        padding-bottom: 20px;
+    }
+    .blogs img{
+        margin-left: 700px;
     }
 
-    /* portfoliosection */
-    .port h4{
-        font-size: 40px;
-        padding-bottom: 40px;
-    }
-    .tabs{
-        font-size: 13px;
-    }
-    .letter{
-        padding: 15px;
-    }
-    .picture{
-        margin-top: 100px;
-        height: 170px;
-    }
-    .lessthan img{
-        top: 2255px;
-        width: 560px;
-        margin-left: 7px;
-    }
-    .groupimg{
-        gap: 40px;
-        top: 2230px;
-        margin-left: 30px;
-    }
-    .groupimg img{
-        width: 140px;
-    }
-    .groupimg p{
-        font-size: 8px;
-        font-weight:200px;
-        line-height: 20px;
-    }
-    .blackbtn button{
-        top: 2480px;
-        margin-left: 220px;
-        height: 60px;
-    }
+
+        /* footersection */
+        .Footer{
+            width: 100%;
+        }
+        .footerall{
+            gap: 20px;
+        }
+        .leftfooter h1{
+            font-size: 28px;
+            margin-left: -30px;
+        }
+        .leftfooter p{
+            font-size: 12px;
+            margin-left: -30px;
+            padding-right: 30px;
+        }
+        .Footer img{
+            width: 900px;
+            margin-left: 60px;
+        }
+        .lastpart{
+            margin-left: 70px;
+        }
+        .lastpart h5{
+            padding-right: 600px;
+        }
 }
