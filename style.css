@@ -369,7 +369,9 @@ box-shadow: 0px 32px 60px 0px #00000021;
 border: none;
 }
 .b1{
-    margin-bottom: 50px;
+    /* margin-bottom: 70px; */
+    /* margin-bottom: -70x; */
+    padding-bottom: 25px;
 }
 .numbers a{
     text-decoration: none;
@@ -711,6 +713,7 @@ opacity: 40%;
 }
 select h5{
     border: none;
+    background: transparent;
 }
 .Footer img{
     width: 1140px;
@@ -1219,4 +1222,417 @@ padding-left: 29px;
             padding-left: 18px;
             font-size: 14px;
         }
+}
+
+@media (max-width:425px) {
+    .heading{
+        width: 100%;
+    }
+    nav{
+        display: none;
+    }
+    .headlogo{
+        margin-left: 30px;
+    }
+    .hamburger{
+        display: block;
+    }
+    .leftside h1{
+        font-size: 39px;
+    }
+    .leftright{
+        margin-left: 30px;
+    }
+    .analyseimg{
+        display: none;
+    }
+
+    /* servicesection */
+    .services{
+        width: 100%;
+        padding-top: 60px;
+    }
+    .head h2{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .head h6{
+        font-size: 10px;
+    }.boxes{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 70px;
+    }
+
+    /* portfoliosection */
+    .portfolio{
+        width: 100%;
+    }
+    .port h4{
+        font-size: 40px;
+    }
+    .tabs{
+        font-size: 10px;
+        padding-bottom: 30px;
+    }
+    .letter{
+        padding:10px;
+    }
+    .picture{
+        margin-top: 70px;
+    }
+    .groupimg{
+        top: 3330px;
+        gap: 10px;
+    }
+    .groupimg p{
+        font-size: 5px;
+    }
+    .blackbtn button{
+        top: 3560px;
+        margin-left: 160px;
+        padding: 5px;
+    }
+
+    /* ideasection */
+    .ideas{
+        width: 100%;
+    }
+    .head h3{
+        font-size: 30px;
+        margin-left: 50px;
+    }
+    .head p{
+        font-size: 7px;
+        margin-left: 50px;
+    }
+    .numbertext{
+        margin-left: 20px;
+        gap: 20px;
+    }
+    .texts h5{
+        font-size: 15px;
+        line-height: 10px;
+    }
+    .texts p{
+        font-size: 8px;
+    }
+    .wr img{
+        display: none;
+    }
+
+    /* bannersection */
+    .banner{
+        width: 100%;
+        height: 250px;
+    }
+    .banner img{
+        display:none;
+    }
+    .contents h2{
+        font-size: 28px;
+        padding-bottom: 10px;
+        padding-top: 20px;
+    }
+    .contents p{
+        font-size: 15px;
+    }
+    .contents button{
+        padding: 8px;
+        margin-left: 78px;
+    }
+    .vector2 img{
+        display: none;
+    }
+
+    /* clientsection */
+    .clients{
+        width: 100%;
+        height: 700px;
+    }
+    .clienttexts h2{
+        font-size: 35px;
+    }
+    .background img{
+        margin-left: 100px;
+    }
+    .background p{
+        font-size: 15px;
+    }
+    .person img{
+        margin-left: 200px;
+        width: 60%;
+    }
+
+    /* blogssection */
+    .blogs{
+        width: 100%;
+        height: 500px;
+    }
+    .groupflex{
+        padding-top: 80px;
+    }
+    .blogflex{
+        display: none;
+    }
+    .left{
+        margin-left: 50px;
+    }
+    .left h5{
+        font-size: 15px;
+    }
+    .blogs img{
+        margin-left: 60px;
+    }
+
+    /* footersection */
+    .Footer{
+        width: 100%;
+    }
+    .left h1{
+        line-height: 20px;
+    }
+    .leftfooter p{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .rightfooter{
+        display: block;
+    }
+    .work p{
+        line-height: 30px;
+    }
+    .service h5{
+        margin-top: 20px;
+    }
+    .service p{
+        line-height: 30px;
+    }
+    .businesssolution h5{
+        margin-top: 20px;
+    }
+    .businesssolution p {
+        line-height: 30px;
+    }
+    .Footer img{
+        width: 270px;
+    }
+    .lastpart h5{
+        font-size: 10px;
+        padding-right: 86px;
+    }
+    .lastpart a{
+        font-size: 10px;
+    }
+}
+
+@media (max-width:375px) {
+    .heading{
+        width: 100%;
+    }
+    nav{
+        display: none;
+    }
+    .headlogo{
+        margin-left: 30px;
+    }
+    .hamburger{
+        display: block;
+    }
+    .leftside h1{
+        font-size: 32px;
+    }
+    .leftside p{
+        font-size: 15px;
+    }
+    .leftright{
+        margin-left: 30px;
+    }
+    .analyseimg{
+        display: none;
+    }
+
+    /* servicesection */
+    .services{
+        width: 100%;
+        padding-top: 60px;
+    }
+    .head h2{
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .head h6{
+        font-size: 9px;
+    }.boxes{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 45px;
+    }
+
+    /* portfoliosection */
+    .portfolio{
+        width: 100%;
+    }
+    .port h4{
+        font-size: 40px;
+    }
+    .tabs{
+        font-size: 10px;
+        padding-bottom: 30px;
+    }
+    .letter{
+        padding:10px;
+    }
+    .picture{
+        margin-top: 70px;
+    }
+    .groupimg{
+        top: 3300px;
+        gap: 5px;
+    }
+    .groupimg p{
+        font-size: 6px;
+    }
+    .blackbtn button{
+        top: 3560px;
+        margin-left: 160px;
+        padding: 5px;
+        display: none;
+    }
+
+    /* ideasection */
+    .ideas{
+        width: 100%;
+    }
+    .head h3{
+        font-size: 25px;
+        margin-left: 30px;
+    }
+    .head p{
+        font-size: 10px;
+        margin-left: 30px;
+    }
+    .numbertext{
+        margin-left: 10px;
+        gap: 20px;
+    }
+    .numbers button{
+        padding: 10px;
+    }
+    .texts h5{
+        font-size: 14px;
+        line-height: 10px;
+    }
+    .texts p{
+        font-size: 7px;
+        line-height: 15px;
+    }
+    .wr img{
+        display: none;
+    }
+
+    /* bannersection */
+    .banner{
+        width: 100%;
+        height: 250px;
+    }
+    .banner img{
+        display:none;
+    }
+    .contents h2{
+        font-size: 25px;
+        padding-bottom: 10px;
+        padding-top: 20px;
+    }
+    .contents p{
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+    .contents button{
+        padding: 5px;
+        margin-left: 52px;
+    }
+    .vector2 img{
+        display: none;
+    }
+
+    /* clientsection */
+    .clients{
+        width: 100%;
+        height: 700px;
+    }
+    .clienttexts h2{
+        font-size: 35px;
+    }
+    .background img{
+        margin-left: 80px;
+    }
+    .background p{
+        font-size: 12px;
+    }
+    .person img{
+        margin-left: 200px;
+        width: 60%;
+    }
+
+    /* blogssection */
+    .blogs{
+        width: 100%;
+        height: 500px;
+    }
+    .groupflex{
+        padding-top: 80px;
+    }
+    .blogflex{
+        display: none;
+    }
+    .left{
+        margin-left: 50px;
+    }
+    .left h5{
+        font-size: 15px;
+    }
+    .blogs img{
+        margin-left: 60px;
+    }
+
+    /* footersection */
+    .Footer{
+        width: 100%;
+    }
+    .left h1{
+        line-height: 20px;
+    }
+    .leftfooter p{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .rightfooter{
+        display: block;
+    }
+    .work p{
+        line-height: 30px;
+    }
+    .service h5{
+        margin-top: 20px;
+    }
+    .service p{
+        line-height: 30px;
+    }
+    .businesssolution h5{
+        margin-top: 20px;
+    }
+    .businesssolution p {
+        line-height: 30px;
+    }
+    .Footer img{
+        width: 270px;
+    }
+    .lastpart h5{
+        font-size: 10px;
+        padding-right: 86px;
+    }
+    .lastpart a{
+        font-size: 10px;
+    }
 }
