@@ -55,6 +55,8 @@ height: 40px;
 border: none;
 border-radius: 30px;
 background-color: #7BC0E3;
+cursor: pointer;
+transition: all .3s ease-in-out;
 }
 .headbtn a{
     color: white;
@@ -216,11 +218,11 @@ color: #7BC0E3;
     width: 24px;
     height:7px;
 }
-.downbox{
+/* .downbox{
      display: flex;
     justify-content: space-evenly;
     margin-top: 20px;
-}
+} */
 /* .spiralbox{ */
     /* width: 200px; */
     /* height: 200px; */
