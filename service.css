@@ -10,7 +10,7 @@
 }
 .container{
     width: 100%;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 header{
     display: flex;
@@ -631,7 +631,6 @@ padding-left: 29px;
     /* servicesection */
     .services{
         width: 60%;
-        /* padding: 40px; */
         margin-left: 30px;
     }
     .head h2{
@@ -713,9 +712,6 @@ font-size: 15px;
 }
 
 @media (max-width:375px) {
-    .container{
-        overflow-y: hidden;
-    }
     .hero{
         width: 100%;
     }
@@ -723,7 +719,6 @@ font-size: 15px;
         margin-left: 5px;
     }
     .logo{
-        /* margin-right: -15px; */
         margin-left: 15px;
     }
     .group{
@@ -816,10 +811,134 @@ font-size: 15px;
         width: 300px;
         margin-left: 50px;
     }
+    .leftfooter p{
+        font-size: 11px;
+    }
     .lastpart{
         margin-left: 35px;
     }
     .lastpart h5{
         padding-right: 70px;
+    }
+}
+
+@media (max-width:320px) {
+    .hero{
+        width: 100%;
+    }
+    .headlogo{
+        margin-left: 5px;
+    }
+    .logo{
+        margin-right: -25px;
+        margin-left: 15px;
+    }
+    .group{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .group img{
+        display: none;
+    }
+    .group h1{
+        padding-top: 50px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .group h6{
+        font-size: 7px;
+    }
+
+    /* servicesection */
+    .services{
+        width: 55%;
+        margin-left: 23px;
+    }
+    .head h2{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .head h6{
+        font-size: 10px;
+    }
+    .boxes{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);  
+        margin-left: -35px; 
+    }
+    .box1{
+        width: 180px;
+    }
+
+    /* bannersection */
+    .banner{
+        width: 100%;
+        padding-top: 50px;
+    }
+    .banner img{
+        display:none;
+    }
+    .contents h2{
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+    .contents p{
+        font-size: 15px;
+        padding-bottom: 30px;
+    }
+    .contents button a{
+    font-size: 15px;
+    }
+    .contents button{
+        padding: 10px;
+        margin-left: 40px;
+        margin-bottom: 30px;
+    }
+
+    /* onlineprescencesection */
+    .onlineprescence{
+        width: 100%;
+    }
+    .lefttexts h2{
+        /* text-align: center; */
+        margin-left: -50px;
+        font-size: 20px;
+    }
+    .lefttexts p{
+        font-size: 7px;
+        margin-left: -70px;
+    }
+    .right h3{
+        margin-left: -50px;
+        margin-bottom: 50px;
+    }
+    .right img{
+        margin-left: 5px;
+        width: 250px;
+    }
+    /* footersection */
+    .Footer{
+        width: 100%;
+    }
+    .rightfooter{
+    display: block;
+    }
+    .Footer img{
+        width: 250px;
+        margin-left: 40px;
+        margin-bottom: 18px;
+    }
+    .leftfooter p{
+        font-size: 11px;
+    }
+    .lastpart{
+        margin-left: 40px;
+    }
+    .lastpart h5{
+        padding-right: 70px;
+        font-size: 9px;
+    }
+    .lastpart a{
+        font-size: 10px;
     }
 }
