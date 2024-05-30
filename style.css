@@ -22,6 +22,20 @@ header{
 }
 .hamburger{
     display: none;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.hamburger.{
+    translate: (5px, 5px);
+}
+nav{
+    position: absolute;
+    background-color: yellow;
+    color: red;
+    display: none;
+    line-height: 100px;
 }
 .headlogo{
     margin-left: 100px;
@@ -198,43 +212,36 @@ margin-bottom: 40px;
 font-size: 20px;
 font-weight: 700;
 line-height: 25.3px;
-padding-bottom: 30px;
+padding-bottom: 20px;
 }
 .box1 p{
     font-family: DM Sans;
 font-size: 16px;
 font-weight: 500;
 line-height: 20.83px;
-padding-bottom: 40px;
+/* padding-bottom: 40px; */
 }
-.box1 h6{
+/* .box1 h6{
     font-family: DM Sans;
 font-size: 14px;
 font-weight: 700;
 line-height: 18.23px;
 color: #7BC0E3;
+} */
+.box1 span{
+    color: #7BC0E3;
 }
-.RM h6 img{
+/* readmore */
+.hidden-text{
+    display: none;
+}
+.show-hidden-text {
+	display: block;
+}
+/* .RM h6 img{
     width: 24px;
     height:7px;
-}
-/* .downbox{
-     display: flex;
-    justify-content: space-evenly;
-    margin-top: 20px;
 } */
-/* .spiralbox{ */
-    /* width: 200px; */
-    /* height: 200px; */
-    /* position: absolute; */
-    /* left: 900px; */
-    /* top: 2350px; */
-    /* bottom: 180px; */
-/* } */
-/* .downbox{ */
-    /* z-index: 5px; */
-/* } */
-
 .portfolio{
     background-color:#FFFFFF;
     width: 100%;
@@ -754,6 +761,14 @@ padding-left: 29px;
     .services{
         width: 100%;
     }
+    /* .boxes{
+        position: relative;
+    }
+    .read-more{
+        position: absolute;
+        margin-left: -270px;
+        margin-top: 115px;
+    } */
     .portfolio{
         width: 100%;
     }
@@ -806,6 +821,14 @@ padding-left: 29px;
     .head{
         text-align: center;
     }
+    /* .boxes{
+        position: relative;
+    }
+    .read-more{
+        position: absolute;
+        margin-left: -100px;
+        margin-top: 115px;
+    } */
     .box1{
        width: 210px;
        height: 210px; 
