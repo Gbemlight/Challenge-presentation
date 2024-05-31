@@ -84,6 +84,15 @@ readMore5.addEventListener('click', function() {
 });
 
 
+const hamburger = document.querySelector('#hamburger');
+const nav = document.querySelector('#mobile-list');
+const handletoggle =() => {
+	nav.classList.toggle('menu-mobile')
+	nav.classList.toggle('active')
+
+}
+hamburger.addEventListener('click', handletoggle)
+
 // const hamburger = document.querySelector('.hamburger');
 // const nav= document.querySelector('.nav');
 
@@ -93,3 +102,9 @@ readMore5.addEventListener('click', function() {
 // }
 // hamburger.addEventListener('click' , burger)
 
+// const hamburger = document.querySelector('.hamburger');
+// const nav = document.querySelector('.nav');
+// hamburger.addEventListener('click', () => {
+// 	nav.classList.toggle('show');
+	
+// });
